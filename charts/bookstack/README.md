@@ -4,7 +4,7 @@
 
 A simple, self-hosted, easy-to-use platform for organising and storing information.
 
-**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/reployedio/helm-charts/issues/new)**
+**This chart is not maintained by the upstream project and any issues with the chart should be raised [here](https://github.com/reployedio/charts/issues/new)**
 
 ## Source Code
 

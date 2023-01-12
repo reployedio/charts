@@ -1,11 +1,10 @@
 apiVersion: v2
 name: bookstack
 description: A simple, self-hosted, easy-to-use platform for organising and storing information.
-home: https://github.com/reployedio/helm-charts/tree/main/charts/bookstack
+home: https://github.com/reployedio/charts/tree/main/charts/bookstack
 icon: https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/logo.png
 type: application
 version: 0.1.0
-# renovate: image=ghcr.io/linuxserver/bookstack
 appVersion: version-v22.11.1
 kubeVersion: ">=1.22.0-0"
 keywords:
