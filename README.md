@@ -1,6 +1,6 @@
 # Reployed Helm Charts
 
-[![Release Charts](https://github.com/reployedio/helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/reployedio/helm-charts/actions/workflows/release.yaml)
+[![Release Charts](https://github.com/reployedio/charts/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/reployedio/charts/actions/workflows/release.yaml)
 
 A collection of Helm charts, based on the
 [bjw-s common library chart](https://github.com/bjw-s/helm-charts/tree/main/charts/library/common).
@@ -13,7 +13,7 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 Once Helm has been set up correctly, add the repo as follows:
 
 ```shell
-helm repo add reployed https://${PERSONAL_ACCESS_TOKEN}@raw.githubusercontent.com/reployedio/helm-charts/main
+helm repo add reployed https://charts.reployed.io
 ```
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
@@ -32,7 +32,6 @@ To uninstall the chart:
 helm delete my-<chart-name>
 ```
 
-harts_summary_file
 ## Chart Overview
 
 | Chart | Description |
