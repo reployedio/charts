@@ -1,0 +1,5 @@
+# IDE resources
+.vscode
+
+# Helm resources
+charts/**/charts
