@@ -17,7 +17,7 @@
           "(^|/)Chart\\.yaml$"
         ],
         "matchStrings": [
-          "# ?renovate: image=(?<depName>.+)\\nappVersion: [\"']?(?<currentValue>[^\"']+)\n"
+          "# ?renovate image=(?<depName>.+)\\nappVersion: [\"']?(?<currentValue>[^\"']+)\n"
         ],
         "datasourceTemplate": "docker"
       }
