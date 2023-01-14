@@ -5,7 +5,7 @@ home: https://github.com/reployedio/charts/tree/main/charts/bookstack
 icon: https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/logo.png
 type: application
 # renovate image=ghcr.io/linuxserver/bookstack
-version: 0.1.0
+version: 0.2.0
 appVersion: version-v22.11.1
 kubeVersion: ">=1.22.0-0"
 keywords:
