@@ -47,6 +47,10 @@
       "commitMessageTopic": "{{depName}} Helm release"
     },
     {
+      "matchPackagePrefixes": ["ghcr.io/linuxserver/", "lscr.io/linuxserver/", "linuxserver/"],
+      "versioning": "regex:^(?<compatibility>.*?)-(?<major>[v\\d]+)\\.(?<minor>\\d+)(\\.(?<patch>[\\d.]+))?(?<build>-.*)?$"
+    },    
+    {
       "matchManagers": [
         "github-actions"
       ],
