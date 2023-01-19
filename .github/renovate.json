@@ -1,49 +1,56 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-      "config:base"
-    ],
-    "ignorePresets": [
-      ":prHourlyLimit2"
-    ],
-    "labels": [
-      "dependencies",
-      "{{datasource}}",
-      "{{updateType}}"
-    ],
-    "regexManagers": [
-      {
-        "fileMatch": [
-          "(^|/)Chart\\.yaml$"
-        ],
-        "matchStrings": [
-          "# ?renovate image=(?<depName>.+)\\nappVersion: [\"']?(?<currentValue>[^\"']+)\n"
-        ],
-        "datasourceTemplate": "docker"
-      }
-    ],
-    "commitMessagePrefix": ":arrow_up:",
-    "packageRules": [
-      {
-        "matchUpdateTypes": [
-          "lockFileMaintenance",
-          "pin"
-        ],
-        "commitMessagePrefix": ":pushpin:"
-      },
-      {
-        "matchUpdateTypes": [
-          "rollback"
-        ],
-        "commitMessagePrefix": ":arrow_down:"
-      },
-      {
-        "matchDatasources": ["helm"],
-        "commitMessageTopic": "{{depName}} Helm release"
-      },
-      {
-        "matchManagers": ["github-actions"],
-        "automerge": false
-      }
-    ]
-  }
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base"
+  ],
+  "ignorePresets": [
+    ":prHourlyLimit2"
+  ],
+  "labels": [
+    "dependencies",
+    "{{datasource}}",
+    "{{updateType}}"
+  ],
+  "assignees": [
+    "n00rm"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "(^|/)Chart\\.yaml$"
+      ],
+      "matchStrings": [
+        "# ?renovate image=(?<depName>.+)\\nappVersion: [\"']?(?<currentValue>[^\"']+)\n"
+      ],
+      "datasourceTemplate": "docker"
+    }
+  ],
+  "commitMessagePrefix": ":arrow_up:",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "lockFileMaintenance",
+        "pin"
+      ],
+      "commitMessagePrefix": ":pushpin:"
+    },
+    {
+      "matchUpdateTypes": [
+        "rollback"
+      ],
+      "commitMessagePrefix": ":arrow_down:"
+    },
+    {
+      "matchDatasources": [
+        "helm"
+      ],
+      "commitMessageTopic": "{{depName}} Helm release"
+    },
+    {
+      "matchManagers": [
+        "github-actions"
+      ],
+      "automerge": false
+    }
+  ]
+}
