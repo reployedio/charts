@@ -1,5 +1,6 @@
 # Reployed Helm Charts
 
+[![Maintained by reployed.io](https://img.shields.io/badge/Maintained%20by-reployed.io-085460)](https://reployed.io)
 [![Release Charts](https://github.com/reployedio/charts/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/reployedio/charts/actions/workflows/release.yaml)
 
 A collection of Helm charts, based on the
