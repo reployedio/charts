@@ -4,7 +4,7 @@ description: A simple, self-hosted, easy-to-use platform for organising and stor
 home: https://github.com/reployedio/charts/tree/main/charts/bookstack
 icon: https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/logo.png
 type: application
-version: 0.2.1
+version: 0.2.2
 # renovate image=ghcr.io/linuxserver/bookstack
 appVersion: version-v22.11.1
 kubeVersion: ">=1.22.0-0"
@@ -17,7 +17,7 @@ dependencies:
     repository: https://bjw-s.github.io/helm-charts
     version: 1.2.1
   - name: mariadb
-    version: 11.4.4
+    version: 11.4.5
     repository: https://charts.bitnami.com/bitnami
     condition: mariadb.enabled
 sources:
