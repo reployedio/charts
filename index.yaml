@@ -3,6 +3,36 @@ entries:
   bookstack:
   - apiVersion: v2
     appVersion: version-v22.11.1
+    created: "2023-02-07T20:01:53.278499652Z"
+    dependencies:
+    - name: common
+      repository: https://bjw-s.github.io/helm-charts
+      version: 1.2.1
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.4.6
+    description: A simple, self-hosted, easy-to-use platform for organising and storing
+      information.
+    digest: 1656847ae08f02ca0221bd309640a63551d1a784ce6e33a17c4d3a4613d38e58
+    home: https://github.com/reployedio/charts/tree/main/charts/bookstack
+    icon: https://media.githubusercontent.com/media/BookStackApp/website/main/static/images/logo.png
+    keywords:
+    - bookstack
+    - wiki
+    - documentation
+    kubeVersion: '>=1.22.0-0'
+    name: bookstack
+    sources:
+    - https://bookstackapp.com
+    - https://github.com/BookStackApp/BookStack
+    - https://ghcr.io/linuxserver/bookstack
+    type: application
+    urls:
+    - https://github.com/reployedio/charts/releases/download/bookstack-0.2.3/bookstack-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: version-v22.11.1
     created: "2023-01-31T21:29:41.83046493Z"
     dependencies:
     - name: common
@@ -121,4 +151,4 @@ entries:
     urls:
     - https://github.com/reployedio/charts/releases/download/bookstack-0.1.0/bookstack-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-31T21:29:41.830485331Z"
+generated: "2023-02-07T20:01:53.278642352Z"
