@@ -1,6 +1,6 @@
 # bookstack
 
-![Version: 0.2.3](https://img.shields.io/badge/Version-0.2.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: version-v22.11.1](https://img.shields.io/badge/AppVersion-version--v22.11.1-informational?style=flat-square)
+![Version: 0.2.4](https://img.shields.io/badge/Version-0.2.4-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: version-v22.11.1](https://img.shields.io/badge/AppVersion-version--v22.11.1-informational?style=flat-square)
 
 A simple, self-hosted, easy-to-use platform for organising and storing information.
 
@@ -20,7 +20,7 @@ Kubernetes: `>=1.22.0-0`
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://bjw-s.github.io/helm-charts | common | 1.2.1 |
+| https://bjw-s.github.io/helm-charts | common | 1.3.1 |
 | https://charts.bitnami.com/bitnami | mariadb | 11.4.6 |
 
 ## TL;DR
