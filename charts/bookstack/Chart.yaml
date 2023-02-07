@@ -17,7 +17,11 @@ dependencies:
     repository: https://bjw-s.github.io/helm-charts
     version: 1.2.1
   - name: mariadb
+<<<<<<< HEAD
     version: 11.4.5
+=======
+    version: 11.4.6
+>>>>>>> 555f70eee1c0db927e424a6694d9b1814b4f614e
     repository: https://charts.bitnami.com/bitnami
     condition: mariadb.enabled
 sources:
